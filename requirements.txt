@@ -1,0 +1,83 @@
+asttokens==2.2.1
+backcall==0.2.0
+brotlipy==0.7.0
+certifi @ file:///croot/certifi_1690232220950/work/certifi
+cffi @ file:///work/ci_py311/cffi_1676822533496/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+comm==0.1.4
+contourpy==1.1.0
+cryptography @ file:///croot/cryptography_1689373676338/work
+cycler==0.11.0
+debugpy==1.6.7.post1
+decorator==5.1.1
+executing==1.2.0
+filelock @ file:///work/ci_py311/filelock_1676823024085/work
+fonttools==4.42.0
+gensim==4.3.2
+gmpy2 @ file:///work/ci_py311/gmpy2_1676839849213/work
+idna @ file:///work/ci_py311/idna_1676822698822/work
+imageio==2.31.4
+ipykernel==6.25.1
+ipython==8.14.0
+jedi==0.19.0
+Jinja2 @ file:///work/ci_py311/jinja2_1676823587943/work
+joblib==1.3.2
+jupyter_client==8.3.0
+jupyter_core==5.3.1
+kiwisolver==1.4.4
+lazy_loader==0.3
+MarkupSafe @ file:///work/ci_py311/markupsafe_1676823507015/work
+matplotlib==3.7.2
+matplotlib-inline==0.1.6
+mkl-fft==1.3.6
+mkl-random @ file:///work/mkl/mkl_random_1682950433854/work
+mkl-service==2.4.0
+mpmath @ file:///croot/mpmath_1690848262763/work
+nest-asyncio==1.5.7
+networkx @ file:///croot/networkx_1690561992265/work
+nibabel==5.1.0
+numpy @ file:///croot/numpy_and_numpy_base_1691091611330/work
+opencv-python==4.8.1.78
+packaging==23.1
+pandas==2.0.3
+parso==0.8.3
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==10.0.0
+platformdirs==3.10.0
+prompt-toolkit==3.0.39
+psutil==5.9.5
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+Pygments==2.16.1
+pyOpenSSL @ file:///croot/pyopenssl_1690223430423/work
+pyparsing==3.0.9
+PySocks @ file:///work/ci_py311/pysocks_1676822712504/work
+python-dateutil==2.8.2
+pytz==2023.3
+PyWavelets==1.4.1
+pyzmq==25.1.1
+requests @ file:///croot/requests_1690400202158/work
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scikit-network==0.31.0
+scipy==1.11.2
+seaborn==0.12.2
+six==1.16.0
+smart-open==6.4.0
+stack-data==0.6.2
+sympy @ file:///work/ci_py311_2/sympy_1679339311852/work
+tabulate==0.9.0
+threadpoolctl==3.2.0
+tifffile==2023.9.26
+torch==2.0.1
+torchaudio==2.0.2
+torchvision==0.15.2
+tornado==6.3.3
+tqdm==4.66.1
+traitlets==5.9.0
+typing_extensions @ file:///croot/typing_extensions_1690297465030/work
+tzdata==2023.3
+urllib3 @ file:///croot/urllib3_1686163155763/work
+wcwidth==0.2.6
