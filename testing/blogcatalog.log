@@ -1,0 +1,28 @@
+INFO - 2023-11-18 16:21:03,971: collecting all words and their counts
+INFO - 2023-11-18 16:21:03,971: PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+INFO - 2023-11-18 16:21:03,973: collected 34 word types from a corpus of 27540 raw words and 340 sentences
+INFO - 2023-11-18 16:21:03,973: Creating a fresh vocabulary
+INFO - 2023-11-18 16:21:03,973: Word2Vec lifecycle event {'msg': 'effective_min_count=0 retains 34 unique words (100.00% of original 34, drops 0)', 'datetime': '2023-11-18T16:21:03.973224', 'gensim': '4.3.2', 'python': '3.11.4 (main, Jul  5 2023, 13:45:01) [GCC 11.2.0]', 'platform': 'Linux-5.15.0-88-generic-x86_64-with-glibc2.31', 'event': 'prepare_vocab'}
+INFO - 2023-11-18 16:21:03,974: Word2Vec lifecycle event {'msg': 'effective_min_count=0 leaves 27540 word corpus (100.00% of original 27540, drops 0)', 'datetime': '2023-11-18T16:21:03.974038', 'gensim': '4.3.2', 'python': '3.11.4 (main, Jul  5 2023, 13:45:01) [GCC 11.2.0]', 'platform': 'Linux-5.15.0-88-generic-x86_64-with-glibc2.31', 'event': 'prepare_vocab'}
+INFO - 2023-11-18 16:21:03,974: deleting the raw counts dictionary of 34 items
+INFO - 2023-11-18 16:21:03,974: sample=0.001 downsamples 34 most-common words
+INFO - 2023-11-18 16:21:03,974: Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 5704.442243993571 word corpus (20.7%% of prior 27540)', 'datetime': '2023-11-18T16:21:03.974334', 'gensim': '4.3.2', 'python': '3.11.4 (main, Jul  5 2023, 13:45:01) [GCC 11.2.0]', 'platform': 'Linux-5.15.0-88-generic-x86_64-with-glibc2.31', 'event': 'prepare_vocab'}
+INFO - 2023-11-18 16:21:03,974: constructing a huffman tree from 34 words
+INFO - 2023-11-18 16:21:03,974: built huffman tree with maximum node depth 7
+INFO - 2023-11-18 16:21:03,974: estimated required memory for 34 words and 128 dimensions: 58616 bytes
+INFO - 2023-11-18 16:21:03,974: resetting layer weights
+INFO - 2023-11-18 16:21:03,975: Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-11-18T16:21:03.975003', 'gensim': '4.3.2', 'python': '3.11.4 (main, Jul  5 2023, 13:45:01) [GCC 11.2.0]', 'platform': 'Linux-5.15.0-88-generic-x86_64-with-glibc2.31', 'event': 'build_vocab'}
+INFO - 2023-11-18 16:21:03,975: Word2Vec lifecycle event {'msg': 'training model with 6 workers on 34 vocabulary and 128 features, using sg=1 hs=1 sample=0.001 negative=0 window=5 shrink_windows=True', 'datetime': '2023-11-18T16:21:03.975048', 'gensim': '4.3.2', 'python': '3.11.4 (main, Jul  5 2023, 13:45:01) [GCC 11.2.0]', 'platform': 'Linux-5.15.0-88-generic-x86_64-with-glibc2.31', 'event': 'train'}
+INFO - 2023-11-18 16:21:03,984: EPOCH 0: training on 27540 raw words (5631 effective words) took 0.0s, 689478 effective words/s
+INFO - 2023-11-18 16:21:03,994: EPOCH 1: training on 27540 raw words (5656 effective words) took 0.0s, 684502 effective words/s
+INFO - 2023-11-18 16:21:04,003: EPOCH 2: training on 27540 raw words (5687 effective words) took 0.0s, 678734 effective words/s
+INFO - 2023-11-18 16:21:04,013: EPOCH 3: training on 27540 raw words (5790 effective words) took 0.0s, 668148 effective words/s
+INFO - 2023-11-18 16:21:04,022: EPOCH 4: training on 27540 raw words (5712 effective words) took 0.0s, 701829 effective words/s
+INFO - 2023-11-18 16:21:04,031: EPOCH 5: training on 27540 raw words (5709 effective words) took 0.0s, 684417 effective words/s
+INFO - 2023-11-18 16:21:04,039: EPOCH 6: training on 27540 raw words (5807 effective words) took 0.0s, 707040 effective words/s
+INFO - 2023-11-18 16:21:04,048: EPOCH 7: training on 27540 raw words (5694 effective words) took 0.0s, 693988 effective words/s
+INFO - 2023-11-18 16:21:04,058: EPOCH 8: training on 27540 raw words (5765 effective words) took 0.0s, 681754 effective words/s
+INFO - 2023-11-18 16:21:04,067: EPOCH 9: training on 27540 raw words (5732 effective words) took 0.0s, 688031 effective words/s
+INFO - 2023-11-18 16:21:04,067: Word2Vec lifecycle event {'msg': 'training on 275400 raw words (57183 effective words) took 0.1s, 620699 effective words/s', 'datetime': '2023-11-18T16:21:04.067204', 'gensim': '4.3.2', 'python': '3.11.4 (main, Jul  5 2023, 13:45:01) [GCC 11.2.0]', 'platform': 'Linux-5.15.0-88-generic-x86_64-with-glibc2.31', 'event': 'train'}
+INFO - 2023-11-18 16:21:04,067: Word2Vec lifecycle event {'params': 'Word2Vec<vocab=34, vector_size=128, alpha=0.05>', 'datetime': '2023-11-18T16:21:04.067261', 'gensim': '4.3.2', 'python': '3.11.4 (main, Jul  5 2023, 13:45:01) [GCC 11.2.0]', 'platform': 'Linux-5.15.0-88-generic-x86_64-with-glibc2.31', 'event': 'created'}
+INFO - 2023-11-18 16:21:04,067: storing 34x128 projection weights into blogcatalog_embeddings.txt
