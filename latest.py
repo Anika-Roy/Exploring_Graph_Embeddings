@@ -191,7 +191,7 @@ class Node2Vec():
 
                 print(f"Done with Iteration #{iteration} at {datetime.datetime.now()}", file=sys.stdout)
 
-                filename = f"walks/walks_{iteration}.txt"
+                filename = f"walks_{iteration}.txt"
 
                 with open(filename, 'a') as file:
                         for walk in walks:

@@ -1,0 +1,3 @@
+INFO - 2023-11-27 04:02:29,676: Word2Vec lifecycle event {'params': 'Word2Vec<vocab=0, vector_size=128, alpha=0.05>', 'datetime': '2023-11-27T04:02:29.663173', 'gensim': '4.3.2', 'python': '3.8.10 (default, May 26 2023, 14:05:08) \n[GCC 9.4.0]', 'platform': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.29', 'event': 'created'}
+WARNING - 2023-11-27 04:02:29,677: attribute count not present in KeyedVectors<vector_size=128, 0 keys>; will store in internal index_to_key order
+INFO - 2023-11-27 04:02:29,677: storing 0x128 projection weights into cora.txt
