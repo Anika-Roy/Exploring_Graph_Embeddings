@@ -297,8 +297,8 @@ def main():
 #     print(adjacency_list[100][0], adjacency_list[100][1])
 
     
-    # adjmat, window_size, embedding_size, walks_per_vertex, walk_length, p and q
-    dw = Node2Vec(adjacency_list, 10, 128, 80, 40, 1, 1)
+    #          adjmat, window_size, embedding_size, walks_per_vertex, walk_length, p and q
+    dw = Node2Vec(adjacency_list, 10, 128, 40, 40, 1, 1)
     print("Node2Vec object created", file=sys.stdout)
 
     master_start = time.time()
