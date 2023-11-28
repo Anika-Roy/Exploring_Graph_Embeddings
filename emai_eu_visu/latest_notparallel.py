@@ -372,7 +372,7 @@ def main():
         weights = weights[sort_order]
         adjacency_list[node] = np.column_stack((neighbors, weights)).T
 
-    n2v = Node2Vec(adjacency_list, 3, 128, 80, 5, 1, 1)
+    n2v = Node2Vec(adjacency_list, 3, 128, 80, 12, 0.25, 1)
     print("Node2Vec object created", file=sys.stdout)
 
     master_start = time.time()

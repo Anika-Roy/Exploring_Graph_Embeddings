@@ -1,0 +1,96 @@
+INFO - 2023-11-28 06:07:32,769: collecting all words and their counts
+INFO - 2023-11-28 06:07:32,769: PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+INFO - 2023-11-28 06:07:32,789: collected 77 word types from a corpus of 246400 raw words and 3080 sentences
+INFO - 2023-11-28 06:07:32,789: Creating a fresh vocabulary
+INFO - 2023-11-28 06:07:32,795: Word2Vec lifecycle event {'msg': 'effective_min_count=0 retains 77 unique words (100.00% of original 77, drops 0)', 'datetime': '2023-11-28T06:07:32.790175', 'gensim': '4.3.2', 'python': '3.8.10 (default, May 26 2023, 14:05:08) \n[GCC 9.4.0]', 'platform': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.29', 'event': 'prepare_vocab'}
+INFO - 2023-11-28 06:07:32,795: Word2Vec lifecycle event {'msg': 'effective_min_count=0 leaves 246400 word corpus (100.00% of original 246400, drops 0)', 'datetime': '2023-11-28T06:07:32.795961', 'gensim': '4.3.2', 'python': '3.8.10 (default, May 26 2023, 14:05:08) \n[GCC 9.4.0]', 'platform': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.29', 'event': 'prepare_vocab'}
+INFO - 2023-11-28 06:07:32,796: deleting the raw counts dictionary of 77 items
+INFO - 2023-11-28 06:07:32,796: sample=0.001 downsamples 61 most-common words
+INFO - 2023-11-28 06:07:32,797: Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 76564.25266507421 word corpus (31.1%% of prior 246400)', 'datetime': '2023-11-28T06:07:32.796989', 'gensim': '4.3.2', 'python': '3.8.10 (default, May 26 2023, 14:05:08) \n[GCC 9.4.0]', 'platform': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.29', 'event': 'prepare_vocab'}
+INFO - 2023-11-28 06:07:32,797: estimated required memory for 77 words and 128 dimensions: 117348 bytes
+INFO - 2023-11-28 06:07:32,797: resetting layer weights
+INFO - 2023-11-28 06:07:32,797: Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-11-28T06:07:32.797824', 'gensim': '4.3.2', 'python': '3.8.10 (default, May 26 2023, 14:05:08) \n[GCC 9.4.0]', 'platform': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.29', 'event': 'build_vocab'}
+INFO - 2023-11-28 06:07:32,797: Word2Vec lifecycle event {'msg': 'training model with 12 workers on 77 vocabulary and 128 features, using sg=1 hs=0 sample=0.001 negative=10 window=10 shrink_windows=True', 'datetime': '2023-11-28T06:07:32.797908', 'gensim': '4.3.2', 'python': '3.8.10 (default, May 26 2023, 14:05:08) \n[GCC 9.4.0]', 'platform': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.29', 'event': 'train'}
+INFO - 2023-11-28 06:07:32,983: EPOCH 0: training on 246400 raw words (76541 effective words) took 0.2s, 424090 effective words/s
+INFO - 2023-11-28 06:07:33,124: EPOCH 1: training on 246400 raw words (76473 effective words) took 0.1s, 554794 effective words/s
+INFO - 2023-11-28 06:07:33,300: EPOCH 2: training on 246400 raw words (76531 effective words) took 0.2s, 444214 effective words/s
+INFO - 2023-11-28 06:07:33,443: EPOCH 3: training on 246400 raw words (76863 effective words) took 0.1s, 551778 effective words/s
+INFO - 2023-11-28 06:07:33,616: EPOCH 4: training on 246400 raw words (76483 effective words) took 0.2s, 450722 effective words/s
+INFO - 2023-11-28 06:07:33,759: EPOCH 5: training on 246400 raw words (76990 effective words) took 0.1s, 552188 effective words/s
+INFO - 2023-11-28 06:07:33,932: EPOCH 6: training on 246400 raw words (76729 effective words) took 0.2s, 455215 effective words/s
+INFO - 2023-11-28 06:07:34,077: EPOCH 7: training on 246400 raw words (76516 effective words) took 0.1s, 541459 effective words/s
+INFO - 2023-11-28 06:07:34,255: EPOCH 8: training on 246400 raw words (76903 effective words) took 0.2s, 440218 effective words/s
+INFO - 2023-11-28 06:07:34,397: EPOCH 9: training on 246400 raw words (76324 effective words) took 0.1s, 552991 effective words/s
+INFO - 2023-11-28 06:07:34,539: EPOCH 10: training on 246400 raw words (76391 effective words) took 0.1s, 554993 effective words/s
+INFO - 2023-11-28 06:07:34,714: EPOCH 11: training on 246400 raw words (76640 effective words) took 0.2s, 447928 effective words/s
+INFO - 2023-11-28 06:07:34,858: EPOCH 12: training on 246400 raw words (76281 effective words) took 0.1s, 543110 effective words/s
+INFO - 2023-11-28 06:07:35,021: EPOCH 13: training on 246400 raw words (76635 effective words) took 0.2s, 480059 effective words/s
+INFO - 2023-11-28 06:07:35,174: EPOCH 14: training on 246400 raw words (76965 effective words) took 0.1s, 520931 effective words/s
+INFO - 2023-11-28 06:07:35,323: EPOCH 15: training on 246400 raw words (76734 effective words) took 0.1s, 524429 effective words/s
+INFO - 2023-11-28 06:07:35,468: EPOCH 16: training on 246400 raw words (76456 effective words) took 0.1s, 542616 effective words/s
+INFO - 2023-11-28 06:07:35,646: EPOCH 17: training on 246400 raw words (76734 effective words) took 0.2s, 440637 effective words/s
+INFO - 2023-11-28 06:07:35,793: EPOCH 18: training on 246400 raw words (77041 effective words) took 0.1s, 541352 effective words/s
+INFO - 2023-11-28 06:07:35,936: EPOCH 19: training on 246400 raw words (76691 effective words) took 0.1s, 547124 effective words/s
+INFO - 2023-11-28 06:07:36,075: EPOCH 20: training on 246400 raw words (76273 effective words) took 0.1s, 564061 effective words/s
+INFO - 2023-11-28 06:07:36,215: EPOCH 21: training on 246400 raw words (76408 effective words) took 0.1s, 561252 effective words/s
+INFO - 2023-11-28 06:07:36,361: EPOCH 22: training on 246400 raw words (76679 effective words) took 0.1s, 536679 effective words/s
+INFO - 2023-11-28 06:07:36,529: EPOCH 23: training on 246400 raw words (76299 effective words) took 0.2s, 464632 effective words/s
+INFO - 2023-11-28 06:07:36,667: EPOCH 24: training on 246400 raw words (76260 effective words) took 0.1s, 567803 effective words/s
+INFO - 2023-11-28 06:07:36,863: EPOCH 25: training on 246400 raw words (76428 effective words) took 0.2s, 396896 effective words/s
+INFO - 2023-11-28 06:07:37,005: EPOCH 26: training on 246400 raw words (76813 effective words) took 0.1s, 555028 effective words/s
+INFO - 2023-11-28 06:07:37,147: EPOCH 27: training on 246400 raw words (76543 effective words) took 0.1s, 554593 effective words/s
+INFO - 2023-11-28 06:07:37,341: EPOCH 28: training on 246400 raw words (76817 effective words) took 0.2s, 403897 effective words/s
+INFO - 2023-11-28 06:07:37,483: EPOCH 29: training on 246400 raw words (76471 effective words) took 0.1s, 554715 effective words/s
+INFO - 2023-11-28 06:07:37,625: EPOCH 30: training on 246400 raw words (76991 effective words) took 0.1s, 554477 effective words/s
+INFO - 2023-11-28 06:07:37,817: EPOCH 31: training on 246400 raw words (76660 effective words) took 0.2s, 407942 effective words/s
+INFO - 2023-11-28 06:07:37,958: EPOCH 32: training on 246400 raw words (76614 effective words) took 0.1s, 554195 effective words/s
+INFO - 2023-11-28 06:07:38,101: EPOCH 33: training on 246400 raw words (76792 effective words) took 0.1s, 552798 effective words/s
+INFO - 2023-11-28 06:07:38,240: EPOCH 34: training on 246400 raw words (76419 effective words) took 0.1s, 562274 effective words/s
+INFO - 2023-11-28 06:07:38,444: EPOCH 35: training on 246400 raw words (76985 effective words) took 0.2s, 385178 effective words/s
+INFO - 2023-11-28 06:07:38,582: EPOCH 36: training on 246400 raw words (76378 effective words) took 0.1s, 566134 effective words/s
+INFO - 2023-11-28 06:07:38,721: EPOCH 37: training on 246400 raw words (76486 effective words) took 0.1s, 565593 effective words/s
+INFO - 2023-11-28 06:07:38,915: EPOCH 38: training on 246400 raw words (76878 effective words) took 0.2s, 403852 effective words/s
+INFO - 2023-11-28 06:07:39,057: EPOCH 39: training on 246400 raw words (76837 effective words) took 0.1s, 555038 effective words/s
+INFO - 2023-11-28 06:07:39,199: EPOCH 40: training on 246400 raw words (77015 effective words) took 0.1s, 555747 effective words/s
+INFO - 2023-11-28 06:07:39,354: EPOCH 41: training on 246400 raw words (76487 effective words) took 0.2s, 506145 effective words/s
+INFO - 2023-11-28 06:07:39,496: EPOCH 42: training on 246400 raw words (76939 effective words) took 0.1s, 553911 effective words/s
+INFO - 2023-11-28 06:07:39,639: EPOCH 43: training on 246400 raw words (76945 effective words) took 0.1s, 549697 effective words/s
+INFO - 2023-11-28 06:07:39,794: EPOCH 44: training on 246400 raw words (76591 effective words) took 0.2s, 506892 effective words/s
+INFO - 2023-11-28 06:07:39,934: EPOCH 45: training on 246400 raw words (76085 effective words) took 0.1s, 558607 effective words/s
+INFO - 2023-11-28 06:07:40,094: EPOCH 46: training on 246400 raw words (76548 effective words) took 0.2s, 490238 effective words/s
+INFO - 2023-11-28 06:07:40,243: EPOCH 47: training on 246400 raw words (76739 effective words) took 0.1s, 527145 effective words/s
+INFO - 2023-11-28 06:07:40,387: EPOCH 48: training on 246400 raw words (76669 effective words) took 0.1s, 546552 effective words/s
+INFO - 2023-11-28 06:07:40,538: EPOCH 49: training on 246400 raw words (76761 effective words) took 0.1s, 518049 effective words/s
+INFO - 2023-11-28 06:07:40,680: EPOCH 50: training on 246400 raw words (76544 effective words) took 0.1s, 556976 effective words/s
+INFO - 2023-11-28 06:07:40,820: EPOCH 51: training on 246400 raw words (76549 effective words) took 0.1s, 557326 effective words/s
+INFO - 2023-11-28 06:07:40,961: EPOCH 52: training on 246400 raw words (76572 effective words) took 0.1s, 557899 effective words/s
+INFO - 2023-11-28 06:07:41,108: EPOCH 53: training on 246400 raw words (76706 effective words) took 0.1s, 536083 effective words/s
+INFO - 2023-11-28 06:07:41,251: EPOCH 54: training on 246400 raw words (76655 effective words) took 0.1s, 551601 effective words/s
+INFO - 2023-11-28 06:07:41,403: EPOCH 55: training on 246400 raw words (76542 effective words) took 0.1s, 512226 effective words/s
+INFO - 2023-11-28 06:07:41,558: EPOCH 56: training on 246400 raw words (76400 effective words) took 0.2s, 506949 effective words/s
+INFO - 2023-11-28 06:07:41,733: EPOCH 57: training on 246400 raw words (76811 effective words) took 0.2s, 454588 effective words/s
+INFO - 2023-11-28 06:07:41,896: EPOCH 58: training on 246400 raw words (76409 effective words) took 0.2s, 480804 effective words/s
+INFO - 2023-11-28 06:07:42,063: EPOCH 59: training on 246400 raw words (76361 effective words) took 0.2s, 467729 effective words/s
+INFO - 2023-11-28 06:07:42,224: EPOCH 60: training on 246400 raw words (76691 effective words) took 0.2s, 486717 effective words/s
+INFO - 2023-11-28 06:07:42,369: EPOCH 61: training on 246400 raw words (76578 effective words) took 0.1s, 542458 effective words/s
+INFO - 2023-11-28 06:07:42,512: EPOCH 62: training on 246400 raw words (76733 effective words) took 0.1s, 552700 effective words/s
+INFO - 2023-11-28 06:07:42,658: EPOCH 63: training on 246400 raw words (76502 effective words) took 0.1s, 536676 effective words/s
+INFO - 2023-11-28 06:07:42,837: EPOCH 64: training on 246400 raw words (76864 effective words) took 0.2s, 439218 effective words/s
+INFO - 2023-11-28 06:07:42,980: EPOCH 65: training on 246400 raw words (76470 effective words) took 0.1s, 546871 effective words/s
+INFO - 2023-11-28 06:07:43,202: EPOCH 66: training on 246400 raw words (76256 effective words) took 0.2s, 349069 effective words/s
+INFO - 2023-11-28 06:07:43,352: EPOCH 67: training on 246400 raw words (76520 effective words) took 0.1s, 524280 effective words/s
+INFO - 2023-11-28 06:07:43,501: EPOCH 68: training on 246400 raw words (76521 effective words) took 0.1s, 523713 effective words/s
+INFO - 2023-11-28 06:07:43,650: EPOCH 69: training on 246400 raw words (76588 effective words) took 0.1s, 529110 effective words/s
+INFO - 2023-11-28 06:07:43,792: EPOCH 70: training on 246400 raw words (76770 effective words) took 0.1s, 553199 effective words/s
+INFO - 2023-11-28 06:07:43,988: EPOCH 71: training on 246400 raw words (76556 effective words) took 0.2s, 398553 effective words/s
+INFO - 2023-11-28 06:07:44,129: EPOCH 72: training on 246400 raw words (76402 effective words) took 0.1s, 552977 effective words/s
+INFO - 2023-11-28 06:07:44,273: EPOCH 73: training on 246400 raw words (76636 effective words) took 0.1s, 545409 effective words/s
+INFO - 2023-11-28 06:07:44,427: EPOCH 74: training on 246400 raw words (76368 effective words) took 0.1s, 510032 effective words/s
+INFO - 2023-11-28 06:07:44,571: EPOCH 75: training on 246400 raw words (76661 effective words) took 0.1s, 544801 effective words/s
+INFO - 2023-11-28 06:07:44,735: EPOCH 76: training on 246400 raw words (76496 effective words) took 0.2s, 477683 effective words/s
+INFO - 2023-11-28 06:07:44,882: EPOCH 77: training on 246400 raw words (76643 effective words) took 0.1s, 536187 effective words/s
+INFO - 2023-11-28 06:07:45,027: EPOCH 78: training on 246400 raw words (76886 effective words) took 0.1s, 542449 effective words/s
+INFO - 2023-11-28 06:07:45,182: EPOCH 79: training on 246400 raw words (76641 effective words) took 0.2s, 508492 effective words/s
+INFO - 2023-11-28 06:07:45,182: Word2Vec lifecycle event {'msg': 'training on 19712000 raw words (6129062 effective words) took 12.4s, 494907 effective words/s', 'datetime': '2023-11-28T06:07:45.182214', 'gensim': '4.3.2', 'python': '3.8.10 (default, May 26 2023, 14:05:08) \n[GCC 9.4.0]', 'platform': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.29', 'event': 'train'}
+INFO - 2023-11-28 06:07:45,182: Word2Vec lifecycle event {'params': 'Word2Vec<vocab=77, vector_size=128, alpha=0.05>', 'datetime': '2023-11-28T06:07:45.182302', 'gensim': '4.3.2', 'python': '3.8.10 (default, May 26 2023, 14:05:08) \n[GCC 9.4.0]', 'platform': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.29', 'event': 'created'}
+INFO - 2023-11-28 06:07:45,185: storing 77x128 projection weights into email.txt

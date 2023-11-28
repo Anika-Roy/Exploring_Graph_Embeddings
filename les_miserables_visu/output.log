@@ -1,0 +1,21 @@
+Number of cores present:  12
+Node2Vec object created
+Training started...
+Start generating random walks
+Done with Iteration #0 at 2023-11-28 06:07:30.670792
+Done with Iteration #1 at 2023-11-28 06:07:30.906813
+Done with Iteration #2 at 2023-11-28 06:07:31.157353
+Done with Iteration #3 at 2023-11-28 06:07:31.381004
+Done with Iteration #4 at 2023-11-28 06:07:31.621036
+Done with Iteration #5 at 2023-11-28 06:07:31.848911
+Done with Iteration #6 at 2023-11-28 06:07:32.079408
+Done with Iteration #7 at 2023-11-28 06:07:32.299691
+Done with Iteration #8 at 2023-11-28 06:07:32.520961
+Done with Iteration #9 at 2023-11-28 06:07:32.757133
+Done generating random walks in 2.32 seconds
+Creating word2vec model
+Done creating word2vec model
+Training completed
+Saving embeddings...
+Embeddings saved
+All done in  14.749541282653809  seconds
