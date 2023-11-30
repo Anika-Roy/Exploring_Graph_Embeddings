@@ -1,0 +1,99 @@
+Number of cores present:  10
+Node2Vec object created
+Training started...
+Start generating random walks
+Done with Iteration #0 at 2023-11-30 15:30:22.880892
+Done with Iteration #11 at 2023-11-30 15:31:20.679868
+Done with Iteration #21 at 2023-11-30 15:32:20.849638
+Done with Iteration #32 at 2023-11-30 15:33:11.679751
+Done with Iteration #42 at 2023-11-30 15:33:59.668320
+Done with Iteration #52 at 2023-11-30 15:34:47.521705
+Done with Iteration #62 at 2023-11-30 15:35:42.194120
+Done with Iteration #74 at 2023-11-30 15:36:40.207395
+Done with Iteration #2 at 2023-11-30 15:30:23.194622
+Done with Iteration #12 at 2023-11-30 15:31:21.296974
+Done with Iteration #22 at 2023-11-30 15:32:18.838970
+Done with Iteration #31 at 2023-11-30 15:33:09.763872
+Done with Iteration #41 at 2023-11-30 15:33:57.519324
+Done with Iteration #51 at 2023-11-30 15:34:45.551140
+Done with Iteration #61 at 2023-11-30 15:35:39.395228
+Done with Iteration #71 at 2023-11-30 15:36:37.063087
+Done with Iteration #6 at 2023-11-30 15:30:26.638851
+Done with Iteration #17 at 2023-11-30 15:31:24.604724
+Done with Iteration #25 at 2023-11-30 15:32:22.627958
+Done with Iteration #33 at 2023-11-30 15:33:13.425685
+Done with Iteration #45 at 2023-11-30 15:34:01.097091
+Done with Iteration #55 at 2023-11-30 15:34:49.190405
+Done with Iteration #65 at 2023-11-30 15:35:41.833522
+Done with Iteration #73 at 2023-11-30 15:36:39.155280
+Done with Iteration #4 at 2023-11-30 15:30:27.817176
+Done with Iteration #18 at 2023-11-30 15:31:26.662788
+Done with Iteration #28 at 2023-11-30 15:32:24.240134
+Done with Iteration #37 at 2023-11-30 15:33:14.442538
+Done with Iteration #47 at 2023-11-30 15:34:02.579970
+Done with Iteration #57 at 2023-11-30 15:34:50.566740
+Done with Iteration #67 at 2023-11-30 15:35:43.738327
+Done with Iteration #77 at 2023-11-30 15:36:40.900942
+Done with Iteration #8 at 2023-11-30 15:30:24.857477
+Done with Iteration #13 at 2023-11-30 15:31:25.212841
+Done with Iteration #26 at 2023-11-30 15:32:22.795457
+Done with Iteration #34 at 2023-11-30 15:33:13.352134
+Done with Iteration #44 at 2023-11-30 15:34:00.993420
+Done with Iteration #54 at 2023-11-30 15:34:48.994987
+Done with Iteration #64 at 2023-11-30 15:35:43.364720
+Done with Iteration #76 at 2023-11-30 15:36:41.387422
+Done with Iteration #1 at 2023-11-30 15:30:22.737535
+Done with Iteration #10 at 2023-11-30 15:31:20.331367
+Done with Iteration #20 at 2023-11-30 15:32:18.305779
+Done with Iteration #30 at 2023-11-30 15:33:09.274367
+Done with Iteration #40 at 2023-11-30 15:33:57.441588
+Done with Iteration #50 at 2023-11-30 15:34:45.543700
+Done with Iteration #60 at 2023-11-30 15:35:38.562065
+Done with Iteration #70 at 2023-11-30 15:36:35.825692
+Done with Iteration #3 at 2023-11-30 15:30:25.120339
+Done with Iteration #15 at 2023-11-30 15:31:22.393238
+Done with Iteration #23 at 2023-11-30 15:32:22.766208
+Done with Iteration #35 at 2023-11-30 15:33:13.117349
+Done with Iteration #43 at 2023-11-30 15:34:00.843399
+Done with Iteration #53 at 2023-11-30 15:34:48.773516
+Done with Iteration #63 at 2023-11-30 15:35:41.709913
+Done with Iteration #72 at 2023-11-30 15:36:39.305005
+Done with Iteration #5 at 2023-11-30 15:30:25.110435
+Done with Iteration #14 at 2023-11-30 15:31:25.537080
+Done with Iteration #27 at 2023-11-30 15:32:23.691125
+Done with Iteration #36 at 2023-11-30 15:33:14.040679
+Done with Iteration #46 at 2023-11-30 15:34:01.935480
+Done with Iteration #56 at 2023-11-30 15:34:49.398471
+Done with Iteration #66 at 2023-11-30 15:35:42.222618
+Done with Iteration #75 at 2023-11-30 15:36:40.581778
+Done with Iteration #9 at 2023-11-30 15:30:29.087245
+Done with Iteration #19 at 2023-11-30 15:31:30.728302
+Done with Iteration #29 at 2023-11-30 15:32:28.338224
+Done with Iteration #39 at 2023-11-30 15:33:18.109190
+Done with Iteration #49 at 2023-11-30 15:34:05.891029
+Done with Iteration #59 at 2023-11-30 15:34:53.684846
+Done with Iteration #69 at 2023-11-30 15:35:47.378010
+Done with Iteration #79 at 2023-11-30 15:36:44.100405
+Done with Iteration #7 at 2023-11-30 15:30:25.988554
+Done with Iteration #16 at 2023-11-30 15:31:24.294117
+Done with Iteration #24 at 2023-11-30 15:32:24.796243
+Done with Iteration #38 at 2023-11-30 15:33:15.428577
+Done with Iteration #48 at 2023-11-30 15:34:03.782315
+Done with Iteration #58 at 2023-11-30 15:34:52.187483
+Done with Iteration #68 at 2023-11-30 15:35:45.730658
+Done with Iteration #78 at 2023-11-30 15:36:42.854532
+Done generating random walks in 440.38 seconds
+Creating word2vec model
+Done training the model on the 0th iteration
+Done training the model on the 10th iteration
+Done training the model on the 20th iteration
+Done training the model on the 30th iteration
+Done training the model on the 40th iteration
+Done training the model on the 50th iteration
+Done training the model on the 60th iteration
+Done training the model on the 70th iteration
+Done creating word2vec model
+Training completed
+Saving embeddings...
+Embeddings saved
+All done in  931.3296439647675  seconds

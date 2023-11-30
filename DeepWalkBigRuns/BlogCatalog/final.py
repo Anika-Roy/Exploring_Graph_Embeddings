@@ -22,6 +22,7 @@ from sklearn.model_selection import train_test_split
 import concurrent.futures
 import os
 import sys
+import argparse
 import datetime
 
 cores = multiprocessing.cpu_count()  # Count the number of cores in a computer
@@ -284,21 +285,19 @@ def sparse_matrix_to_adjacency_list(sparse_matrix):
     return adjacency_list
     
 def main():
-    print("Number of cores present: ", cores, file=sys.stdout)    
-    logging.basicConfig(format="%(levelname)s - %(asctime)s: %(message)s", level=logging.INFO,filename='blogcatalog.log',filemode='w')
+    parser = argparse.ArgumentParser(description='Node2Vec Training Script')
+    parser.add_argument('p', type=float, help='Parameter p for Node2Vec')
+    parser.add_argument('q', type=float, help='Parameter q for Node2Vec')
+    args = parser.parse_args()
+
+    print("Number of cores present: ", cores, file=sys.stdout)
+    logging.basicConfig(format="%(levelname)s - %(asctime)s: %(message)s", level=logging.INFO, filename='blogcatalog.log', filemode='w')
 
     data_np = load_mat('blogcatalog.mat')
-#     data_np = load_mat('/home2/anika.roy/SMAI-project/datasets/blogcatalog.mat')
     sparse_matrix = data_np['network']
     adjacency_list = sparse_matrix_to_adjacency_list(sparse_matrix)
-#     data_np = load_mat('/home2/anika.roy/SMAI-project/datasets/ppi.mat')
 
-
-#     print(adjacency_list[100][0], adjacency_list[100][1])
-
-    
-    # adjmat, window_size, embedding_size, walks_per_vertex, walk_length, p and q
-    dw = Node2Vec(adjacency_list, 10, 128, 80, 40, 1, 1)
+    dw = Node2Vec(adjacency_list, 10, 128, 80, 40, args.p, args.q)
     print("Node2Vec object created", file=sys.stdout)
 
     master_start = time.time()
@@ -308,13 +307,14 @@ def main():
     print("Training completed", file=sys.stdout)
 
     print("Saving embeddings...", file=sys.stdout)
-    # output embeddings to an output file
     dw.model.wv.save_word2vec_format('blogcatalog.txt')
     print("Embeddings saved", file=sys.stdout)
 
     master_end = time.time()
 
     print("All done in ", master_end - master_start, " seconds")
+
+    print("Start")
 
 if __name__ == "__main__":
     main()
